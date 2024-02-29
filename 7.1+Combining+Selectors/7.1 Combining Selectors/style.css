@@ -19,4 +19,7 @@ li.done{
     color: seagreen;
 }
 
-/**/
+/*combining combiners - like using two different */
+ul p.done{
+    font-size: 0.5rem;
+}
