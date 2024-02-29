@@ -1,1 +1,6 @@
 /* Write your code here: */
+/*group selectors*/
+h1, h2{
+    color: blueviolet;
+}
+
