@@ -4,3 +4,7 @@ h1, h2{
     color: blueviolet;
 }
 
+/*parent direct-child relationship*/
+.box > p {
+    color: firebrick;
+}
