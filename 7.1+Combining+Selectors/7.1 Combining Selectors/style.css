@@ -4,12 +4,12 @@ h1, h2{
     color: blueviolet;
 }
 
-/*parent direct-child relationship*/
+/*parent direct-child relationship selector*/
 .box > p {
     color: firebrick;
 }
 
-/*ancestor descendant relationship*/
+/*ancestor descendant relationship selector*/
 .box li{
     color: blue;
 }
@@ -19,7 +19,7 @@ li.done{
     color: seagreen;
 }
 
-/*combining combiners - like using two different */
+/*combining combiners - like using two different selectors*/
 ul p.done{
     font-size: 0.5rem;
 }
