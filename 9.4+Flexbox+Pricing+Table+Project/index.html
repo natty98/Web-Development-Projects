@@ -11,10 +11,47 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        text-align: center;
+        list-style: none;
+      }
+
+      .pricing-container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1rem;
+      }
+
+      .pricing-plan{
+        justify-items: center;
+        background-color: ghostwhite;
+      }
+
+      .plan-button{
+        background-color: orange;
+        color: white;
+        padding: 5px;
+      }
+
+      .plan-title{
+        font-weight: bold;
+      }
+
+      .plan-price{
+        font-weight: bold;
+        font-size: 200%;
       }
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .pricing-plan{  
+
+        }
       }
     </style>
   </head>
